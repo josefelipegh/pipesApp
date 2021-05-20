@@ -1,5 +1,6 @@
-import { DEFAULT_CURRENCY_CODE, LOCALE_ID, NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRouterModule } from './app-router.module';
 
 // Modulo personalizado
@@ -21,6 +22,7 @@ registerLocaleData( localFr );
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRouterModule,
     
     SharedModule,
