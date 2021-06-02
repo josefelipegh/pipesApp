@@ -8,12 +8,22 @@ import { Component } from '@angular/core';
 })
 export class NoComunesComponent {
 
+  // i18nSelect
   nombre: string = 'Felipe';
   genero: string = 'masculino';
 
   invitacionMapa = {
     'masculino': 'invitarlo',
     'femenino': 'invitarla'
+  }
+
+  // i18nPlural
+  clientes: string[] = [];
+  clientesMapa = {
+    '=0' : 'no tenemos ningun cliente esperando',
+    '=1' : 'tenemos un cliente esperando',
+    '=2' : 'tenemos dos cliente esperando',
+    'other' : 'tenemos # clientes esperando'
   }
 
 }
