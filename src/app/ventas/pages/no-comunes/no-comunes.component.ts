@@ -42,4 +42,20 @@ export class NoComunesComponent {
     direccion: 'Montevideo Uruguay'
   }
 
+  // JsonPipe
+  heroes = [
+    {
+      nombre: 'Superman',
+      vuela: true
+    },
+    {
+      nombre: 'Robin',
+      vuela: false
+    },
+    {
+      nombre: 'Aquaman',
+      vuela: false
+    },
+  ];
+
 }
